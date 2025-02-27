@@ -3,6 +3,8 @@ import numpy as np
 import collections
 import matplotlib.pyplot as plt
 import dm_env
+import sys
+sys.path.append("aloha_scripts")
 
 from constants import DT, START_ARM_POSE, MASTER_GRIPPER_JOINT_NORMALIZE_FN, PUPPET_GRIPPER_JOINT_UNNORMALIZE_FN
 from constants import PUPPET_GRIPPER_POSITION_NORMALIZE_FN, PUPPET_GRIPPER_VELOCITY_NORMALIZE_FN
